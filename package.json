@@ -1,0 +1,29 @@
+{
+  "name": "astro-unocss",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "format": "prettier --write . --plugin=prettier-plugin-astro",
+    "clean": "rimraf dist"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.5",
+    "astro": "^4.4.4",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.42",
+    "@types/canvas-confetti": "^1.6.4",
+    "@unocss/reset": "^0.58.5",
+    "canvas-confetti": "^1.9.2",
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0",
+    "rimraf": "^5.0.5",
+    "unocss": "^0.58.5"
+  }
+}
